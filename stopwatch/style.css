@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.heading {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.wrapper .box {
+    background-color: #4a4e69;
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.wrapper p {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+button {
+    background-color: #9a8c98;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:hover,
+button:focus {
+    background-color: #c9ada7;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.laps {
+    margin-top: 20px;
+    max-height: 200px;  /* Set a fixed height for scrolling */
+    overflow-y: auto;   /* Enable vertical scrolling */
+    text-align: left;
+   
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+.lap {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
